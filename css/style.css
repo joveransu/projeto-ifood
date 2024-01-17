@@ -67,8 +67,7 @@ p{
     padding: 5px;
     padding-bottom: 5px;
     text-align: center;
-    margin: center;
-    text-justify:distribute;
+    text-justify: auto;
 }
 
 table{
