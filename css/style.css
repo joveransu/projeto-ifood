@@ -1,0 +1,124 @@
+@charset "URF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Homemade+Apple&family=Satisfy&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+}
+
+body{
+    margin: center;
+    background-image: linear-gradient(white, coral, white);
+}
+
+main{
+    margin: auto;
+    width: 600px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 150px;
+}
+h1{
+    font-family: Handlee, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-shadow: coral 1px 2px;
+    font-size: 3em;
+}
+
+section{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+h2{
+    font-family: Handlee, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-shadow: coral 1px 2px;
+    font-size: 2em;
+}
+
+h3{
+    font-family: Handlee, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-shadow: coral 1px 2px;
+    font-size: 1.5em;
+}
+
+#table{
+    overflow-x: auto;
+}
+
+p.destaque{
+    text-decoration: underline;
+    font-weight: bold;
+}
+p{
+    padding: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: center;
+    text-justify:distribute;
+}
+
+table{
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr.products:hover{
+    background-color: coral;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 166, 133, 0.742);
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+article{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    background-color: coral;
+    padding: 2px;
+    border-radius: 10%;
+}
+
+ul{
+    list-style-image: url('../img/list.gif');
+    list-style-position: inside;
+}
+
+li{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media screen and (max-width: 650px) {
+    main {
+        width: 320px;
+    }
+}
